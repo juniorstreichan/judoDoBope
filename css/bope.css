@@ -12,13 +12,23 @@
 }
 
 body{
-
 	margin-top: 60px;
+}
+
+.fundo-tatame{
 	background-image: url("../img/fundo.jpg");
 	background-repeat: no-repeat;	
-	background-attachment: fixed;
-	background-color: rgba(10,23,55,0.5);
+	/*background-attachment: fixed;*/
+	padding-top: 25px;
+	padding-bottom: 15px;
 }
+
+section {
+	padding-top: 35px;
+	padding-bottom: 15px;
+	min-height: 100vh;
+}
+
 .navbar-topo-bope{
 	/*height: 20px;*/
 	border-bottom-width: 10px;	

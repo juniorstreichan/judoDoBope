@@ -28,7 +28,7 @@
 
 					<div>
 						<a href="#header">
-							<img src="img/logo.png" alt="Judo do Bope" class="logo-navbar img-responsive img-circle pull-left">
+							<img src="img/logo.png" alt="Judo do Bope" class="logo-navbar img-responsive  pull-left">
 						</a>
 						<a class="nome-navbar navbar-brand" href="#header">Judô do Bope</a>
 					</div>
@@ -36,9 +36,7 @@
 
 				<div class="collapse navbar-collapse navbar-right menu-navegacao text-center" id="nav-topo">
 					<ul class="nav navbar-nav">
-						<li><a href="#"> <span class=" glyphicon glyphicon-info-sign"></span>	Sobre o Projeto</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-map-marker"></span>	Localização</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-envelope"></span> 		Contato</a></li>
+						<li><a href="#historia"> <span class=" glyphicon glyphicon-info-sign"></span>	Sobre o Projeto</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Galerias de Fotos	<span class="glyphicon glyphicon-chevron-down"></span></a>
 							<ul class="dropdown-menu" role="menu">
@@ -54,6 +52,9 @@
 									<li class="divider"></li>
 									<li><a href="#">Professores</a></li>
 								</ul>
+								<li><a href="#"><span class="glyphicon glyphicon-map-marker"></span>	Localização</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-envelope"></span> 		Contato</a></li>
+
 
 							</ul>
 						</div>
@@ -66,15 +67,70 @@
 				<!--} fim navbar fixa na base( tela pequena)  -->
 
 				<!-- HEADER{ -->
-				<header  id="header">
+				<header class="fundo-tatame" id="header">
+					<div class="container ">
+						<div class="col-xs-12 col-sm-12 text-center">
+							<div id="slider-principal" class="carousel slide" data-ride="carousel">
 
+								<ol class="carousel-indicators">
+									<li data-target="#slider-principal" class="active" data-slide-to="0"></li>
+									<li data-target="#slider-principal" data-slide-to="1"></li>
+									<li data-target="#slider-principal" data-slide-to="2"></li>
+								</ol>
+
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<img src="img/slide/slider1.jpg" alt="imagem1">
+									</div>
+									<div class="item">
+										<img src="img/slide/slider2.jpg" alt="imagem2">
+									</div>
+									<div class="item  ">
+										<img src="img/slide/slider3.jpg" alt="imagem3">
+									</div>						
+								</div>
+
+								<a href="#slider-principal" class=" left carousel-control" role="button" data-slide="prev">
+
+									<h1>
+										<strong>
+											<span class="glyphicon glyphicon-menu-left "></span>
+										</strong>
+									</h1>
+
+								</a>
+
+								<a href="#slider-principal" class="right carousel-control" role="button" data-slide="next">
+									<h1>
+										<strong>
+											<span class="glyphicon glyphicon-menu-right "></span>
+										</strong>
+									</h1>
+
+								</a>
+
+
+							</div>
+						</div>
+
+					</div>
 				</header>
 				<!--} FIM HEADER -->
 
 
 				<!-- História do Projeto “Judô do Bope” Missão, Visão e Valores.{ -->
 				<section id="historia">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12">
+								<div class="page-header">
 
+									<h1>O Projeto <small>/conheça o que fazemos</small></h1>
+								</div>
+
+							</div>
+						</div>
+					</div>
 				</section>
 				<!-- }FIM Missão, Visão e Valores. FIM História do Projeto “Judô do Bope” -->
 
@@ -83,6 +139,17 @@
 
 				<!-- Galerias de fotos{ -->
 				<section class="fotos">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12">
+								<div class="page-header">
+
+									<h1>Galeria de Fotos<small>/lorem ipsum</small></h1>
+								</div>
+
+							</div>
+						</div>
+					</div>
 					<!-- ALUNOS -->
 					<div id="fotos-alunos">
 
@@ -129,6 +196,8 @@
 
 			<script src="js/jquery-3.2.1.min.js"></script>
 			<script src="js/bootstrap.min.js"></script>
+			<script src="js/main.js"></script>
+
 
 		</body>
 		</html>
