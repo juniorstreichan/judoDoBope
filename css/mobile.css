@@ -1,0 +1,16 @@
+
+
+body{
+	margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 939px) {
+	h1,h2{
+		font-size:30px ;
+	}
+}
+@media only screen and (max-width: 500px) {
+	h1,h2{
+		font-size:25px ;
+	}
+}
