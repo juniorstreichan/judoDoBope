@@ -23,3 +23,24 @@ body{
 		height: 280px;
 	}
 }
+
+@media only screen and (max-height: 400px) {
+	.nav-bope-hidden{
+		display: none;
+	}
+	.navbar-topo-bope{
+		height: 10px;
+		width: 230px;
+
+		margin-left: 30px;
+	}
+	.logo-navbar{
+		width: 40px;
+	}
+	body{
+		margin-top: 40px;
+	}
+	#menu-footer{
+		height: 25px;
+	}
+}
