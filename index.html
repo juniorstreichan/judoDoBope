@@ -13,19 +13,19 @@
 
 
 	<!-- favicon{ -->
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 	<link rel="manifest" href="/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -59,12 +59,12 @@
 					<ul class="nav navbar-nav">
 						<li><a href="#historia"> <span class=" glyphicon glyphicon-info-sign"></span>	Sobre o Projeto</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Galerias de Fotos	<span class="glyphicon glyphicon-chevron-down"></span></a>
-							<ul class="dropdown-menu" role="menu">
+							<a href="#fotos" class="<!-- dropdown-toggle -->" data-toggle="<!-- dropdown -->" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-camera"></span>	Galerias de Fotos	<!-- <span class="glyphicon glyphicon-chevron-down"></span> --></a>
+						<!-- 	<ul class="dropdown-menu" role="menu">
 								<li><a href="#fotos-competicoes">Competições</a></li>
 								<li class="divider"></li>
 								<li><a href="#fotos-alunos">Alunos</a></li>
-							</ul>
+							</ul> -->
 
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mais Informações		<span class="glyphicon glyphicon-chevron-down"></span></a>
@@ -121,224 +121,249 @@
 
 
 
-					<!--} fim navbar fixa na base( tela pequena)  -->
+				<!--} fim navbar fixa na base( tela pequena)  -->
 
-					<!-- HEADER{ -->
-					<header class="fundo-tatame" id="header">
-						<div class="container">
-							<div class="col-xs-12 col-sm-12 text-center">
-								<div id="slider-principal" class="carousel slide" data-ride="carousel">
+				<!-- HEADER{ -->
+				<header class="fundo-tatame" id="header">
+					<div class="container">
+						<div class="col-xs-12 col-sm-12 text-center">
+							<div id="slider-principal" class="carousel slide" data-ride="carousel">
 
-									<ol class="carousel-indicators">
-										<li data-target="#slider-principal" class="active" data-slide-to="0"></li>
-										<li data-target="#slider-principal" data-slide-to="1"></li>
-										<li data-target="#slider-principal" data-slide-to="2"></li>
-									</ol>
+								<ol class="carousel-indicators">
+									<li data-target="#slider-principal" class="active" data-slide-to="0"></li>
+									<li data-target="#slider-principal" data-slide-to="1"></li>
+									<li data-target="#slider-principal" data-slide-to="2"></li>
+								</ol>
 
-									<div class="carousel-inner" role="listbox">
-										<div class="item active">
-											<img src="img/slide/slider1.jpg" alt="imagem1">
-										</div>
-										<div class="item">
-											<img src="img/slide/slider2.jpg" alt="imagem2">
-										</div>
-										<div class="item  ">
-											<img src="img/slide/slider3.jpg" alt="imagem3">
-										</div>						
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<img src="img/slide/slider1.jpg" alt="imagem1">
 									</div>
-
-									<a href="#slider-principal" class=" left carousel-control" role="button" data-slide="prev">
-
-										<h1>
-											<strong>
-												<span class="glyphicon glyphicon-menu-left "></span>
-											</strong>
-										</h1>
-
-									</a>
-
-									<a href="#slider-principal" class="right carousel-control" role="button" data-slide="next">
-										<h1>
-											<strong>
-												<span class="glyphicon glyphicon-menu-right "></span>
-											</strong>
-										</h1>
-
-									</a>
-
-
-								</div>
-							</div>
-
-						</div>
-					</header>
-					<!--} FIM HEADER -->
-
-
-					<!-- História do Projeto “Judô do Bope” Missão, Visão e Valores.{ -->
-					<section id="historia">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12 col-sm-12">
-									<div class="page-header">
-
-										<h1>O Projeto <small>/conheça o que fazemos</small></h1>
+									<div class="item">
+										<img src="img/slide/slider2.jpg" alt="imagem2">
 									</div>
-
+									<div class="item  ">
+										<img src="img/slide/slider3.jpg" alt="imagem3">
+									</div>						
 								</div>
-							</div>
-						</div>
-					</section>
-					<!-- }FIM Missão, Visão e Valores. FIM História do Projeto “Judô do Bope” -->
+
+								<a href="#slider-principal" class=" left carousel-control" role="button" data-slide="prev">
+
+									<h1>
+										<strong>
+											<span class="glyphicon glyphicon-menu-left "></span>
+										</strong>
+									</h1>
+
+								</a>
+
+								<a href="#slider-principal" class="right carousel-control" role="button" data-slide="next">
+									<h1>
+										<strong>
+											<span class="glyphicon glyphicon-menu-right "></span>
+										</strong>
+									</h1>
+
+								</a>
 
 
-
-
-					<!-- Galerias de fotos{ -->
-					<section id="fotos">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12 col-sm-12">
-									<div class="page-header">
-
-										<h1>Galeria de Fotos<small>/lorem ipsum</small></h1>
-									</div>
-
-								</div>
-							</div>
-						</div>
-						<!-- ALUNOS -->
-						<div id="fotos-alunos">
-							<div class="container">
-								<div class="row">
-									<div class="col-xs-12 col-sm-12">
-										<div class="page-header">
-
-											<h1>Alunos<small></small></h1>
-										</div>
-
-									</div>
-								</div>
 							</div>
 						</div>
 
-						<!-- COMPETICOES -->
-						<div id="fotos-competicoes">
-							<div class="container">
-								<div class="row">
-									<div class="col-xs-12 col-sm-12">
-										<div class="page-header">
+					</div>
+				</header>
+				<!--} FIM HEADER -->
 
-											<h1>Competições<small></small></h1>
-										</div>
 
-									</div>
+				<!-- História do Projeto “Judô do Bope” Missão, Visão e Valores.{ -->
+				<section id="historia">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12">
+								<div class="page-header">
+
+									<h1>O Projeto <small>/conheça o que fazemos</small></h1>
 								</div>
+
 							</div>
 						</div>
-					</section>
-					<!--} FIM Galerias de fotos -->
+					</div>
+				</section>
+				<!-- }FIM Missão, Visão e Valores. FIM História do Projeto “Judô do Bope” -->
 
 
-					<!-- Informações -->
-					<section class="informacoes">
+
+
+				<!-- Galerias de fotos{ -->
+				<section id="fotos">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12">
+								<div class="page-header">
+
+									<h1>Galeria de Fotos<small>/lorem ipsum</small></h1>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- ALUNOS -->
+					<div id="fotos-alunos">
 						<div class="container">
 							<div class="row">
 								<div class="col-xs-12 col-sm-12">
 									<div class="page-header">
 
-										<h1>Mais Informações<small></small></h1>
+										<h1>Alunos<small></small></h1>
 									</div>
 
 								</div>
 							</div>
 						</div>
-						<!-- -->
-						<div id="info-aulas">
-							<div class="container">
-								<div class="row">
-									<div class="col-xs-12 col-sm-12">
-										<div class="page-header">
-
-											<h2>Horários das Aulas</h2>
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div id="info-professores">
-							<div class="container">
-								<div class="row">
-									<div class="col-xs-12 col-sm-12">
-										<div class="page-header">
-
-											<h2>Nossa Equipe de Professores</h2>
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- FIM Informações -->
-
-					<!-- Localização -->
-					<section id="localigacao">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12 col-sm-12">
-									<div class="page-header">
-
-										<h1>Nossa Localização<small></small></h1>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- FIM Localização -->
-
-					<!-- Contato -->
-					<section id="contato">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12 col-sm-12">
-									<div class="page-header">
-
-										<h1>Contato<small> /Fale Conosco</small></h1>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- FIM Contato -->
-
-					<!-- FOOTER -->
-					<footer>
-						<div class="fundo-tatame">
-							<div class="container ">	
-								<div class="row">
-									<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-4">
-
-									</div>
-									<div class="col-xs-12 col-sm-6 col-md-4">
-										<embed class="img-responsive" src="img/logo.png" type="image/png">
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</footer>
-						<!-- FIM FOOTER -->
 					</div>
 
-					<script src="js/jquery-3.2.1.min.js"></script>
-					<script src="js/bootstrap.min.js"></script>
-					<script src="js/main.js"></script>
+					<!-- COMPETICOES -->
+					<div id="fotos-competicoes">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12">
+									<div class="page-header">
+
+										<h1>Competições<small></small></h1>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--} FIM Galerias de fotos -->
 
 
-				</body>
-				</html>
+				<!-- Informações -->
+				<section class="informacoes">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12">
+								<div class="page-header">
+
+									<h1>Mais Informações<small></small></h1>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- -->
+					<div id="info-aulas">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12">
+									<div class="page-header">
+
+										<h2>Horários das Aulas</h2>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="info-professores">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12">
+									<div class="page-header">
+
+										<h2>Nossa Equipe de Professores</h2>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- FIM Informações -->
+
+				<!-- Localização -->
+				<section id="localigacao">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12">
+								<div class="page-header">
+
+									<h1>Nossa Localização<small></small></h1>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<div class="jumbotron">
+										<h3>Avenida do Cpa</h3>
+										<h4>CEP 78050-790</h4>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6">
+									<iframe   id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3843.5877749790375!2d-56.065084167704214!3d-15.560213989197123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db0e5b7cce687%3A0xd0fdd068ffe97683!2sBOPE+MT!5e0!3m2!1spt-BR!2sbr!4v1517797959283" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+
+									</iframe>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- FIM Localização -->
+
+		<!-- Contato -->
+		<section id="contato">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12">
+						<div class="page-header">
+
+							<h1>Contato<small> /Fale Conosco</small></h1>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- FIM Contato -->
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="fundo-tatame">
+				<div class="container ">	
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="">Projeto Judo do Bope</h4>
+								</div>
+
+								<div class="panel-body">
+									<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quia maxime consequatur, iste veniam culpa sed sequi reiciendis inventore dolores! Esse culpa magni quae eaque molestiae doloribus, qui necessitatibus voluptate.</p>
+								</div>
+
+								<div class="panel-footer">Mato grosso</div>
+								
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-offset-4 col-md-4">
+							<embed class="img-responsive" src="img/logo.png" type="image/png">
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- FIM FOOTER -->
+		</div>
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+
+
+	</body>
+	</html>

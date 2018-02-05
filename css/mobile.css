@@ -8,9 +8,18 @@ body{
 	h1,h2{
 		font-size:30px ;
 	}
+	#mapa{
+		width: 400px;
+		height: 400px;
+	}
 }
 @media only screen and (max-width: 500px) {
 	h1,h2{
 		font-size:25px ;
+	}
+
+	#mapa{
+		width: 280px;
+		height: 280px;
 	}
 }
