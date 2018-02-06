@@ -20,12 +20,23 @@ section {
 }
 
 /* CLASSES/////////////////////////////////////////////////////////////*/
+
 .logo-navbar{
 
 	width: 60px;
 	margin-left: 20px;
-	margin-right: 20px
+	margin-right: 20px;
+	transition-duration: 2s;
+	transition-timing-function:  ease-in-out;
+
 }
+
+.logo-navbar:hover{
+	width: 80px;
+	transition-duration: 1.3s;
+	transition-timing-function:  ease-in-out;
+}
+
 
 .icon-footer{
 
@@ -55,5 +66,16 @@ section {
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 
+}
+
+.muda-texto:hover{
+	transition-duration: 0.7s;
+	transition-timing-function:  ease-in-out; 	
+	color: #FF1919;
+}
+
+.muda-texto{
+	transition-duration: 0.7s;
+	transition-timing-function:  ease-in-out; 	
 }
 

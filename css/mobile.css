@@ -5,6 +5,9 @@ body{
 }
 
 @media only screen and (max-width: 939px) {
+	.jumbotron{
+		font-size: 30px;
+	}
 	h1,h2{
 		font-size:30px ;
 	}
