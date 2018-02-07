@@ -30,6 +30,15 @@ section {
 	transition-timing-function:  ease-in-out;
 
 }
+.div-apoio{
+height: 300px;
+
+}
+
+.div-apoio > a>img{
+margin-top: 30px;
+
+}
 
 .logo-navbar:hover{
 	width: 80px;

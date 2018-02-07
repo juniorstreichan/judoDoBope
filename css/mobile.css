@@ -4,6 +4,11 @@ body{
 	margin-bottom: 60px;
 }
 
+.div-apoio{
+height: 180px;
+
+}
+
 @media only screen and (max-width: 939px) {
 	.jumbotron{
 		font-size: 30px;

@@ -30,6 +30,19 @@ $('.carousel-multi .item').each(function(){
 	}
 });
 
+function mudadata(){
+	moment.locale('pt-br');
+	var div  = document.getElementById('calc-data');
+	var dataProjeto = new Date('05/10/2010');
+	var dataAtual = new Date('DD/MM/YYYY');
+
+
+
+
+        var diff  = dataAtual.diff(dataProjeto, 'years');
+        	div.innerHTML= (diff);
+
+    }
 
 
 ////// 
