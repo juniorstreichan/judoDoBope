@@ -5,8 +5,17 @@ body{
 }
 
 .div-apoio{
-height: 180px;
+	height: 180px;
+}
 
+.img-galeria{
+	width: 100%; 
+	margin-left: 0%;
+}
+.logo-navbar:hover{
+	width: 60px;
+	transition-duration: 1.3s;
+	transition-timing-function:  ease-in-out;
 }
 
 @media only screen and (max-width: 939px) {
@@ -32,9 +41,29 @@ height: 180px;
 	}
 }
 
+@media only screen and (max-width: 335px) {
+.icon-footer{
+
+	font-size: 15px;
+	/*padding: 12px;*/
+}
+}
+
+
 @media only screen and (max-height: 400px) {
 	.nav-bope-hidden{
 		display: none;
+	}
+	.div-apoio > a>img{
+		margin-top: 5px;
+		width: 150px;
+
+	}
+	.nome-navbar{
+		font-size: 15px;
+	}
+	.logo-navbar{
+		width: 40px;
 	}
 	.navbar-topo-bope{
 		height: 10px;

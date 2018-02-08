@@ -10,7 +10,7 @@ $('nav a').click(function(e) {
 // apoio
 /* Type-1 */
 $('#myCarousel').carousel({
-	interval: 4000
+	interval: 7000
 })
 
 $('.carousel-multi .item').each(function(){
