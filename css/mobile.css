@@ -8,17 +8,18 @@ body{
 	height: 180px;
 }
 
-.img-galeria{
-	width: 100%; 
-	margin-left: 0%;
-}
+
 .logo-navbar:hover{
 	width: 60px;
 	transition-duration: 1.3s;
 	transition-timing-function:  ease-in-out;
 }
 
+
+
+
 @media only screen and (max-width: 939px) {
+
 	.jumbotron{
 		font-size: 30px;
 	}
@@ -29,36 +30,42 @@ body{
 		width: 400px;
 		height: 400px;
 	}
+	
+
 }
 @media only screen and (max-width: 500px) {
 	h1,h2,h3,h4,h5,h6{
 		font-size:25px ;
 	}
+	.img-galeria{
+		width: 100%; 
+		margin-left: 0%;
+	}
+
 
 	#mapa{
 		width: 280px;
 		height: 280px;
 	}
+	.logo-modal{
+		width: 100px;
+	}
 }
 
 @media only screen and (max-width: 335px) {
-.icon-footer{
+	.icon-footer{
 
-	font-size: 15px;
-	/*padding: 12px;*/
+		font-size: 15px;
+		/*padding: 12px;*/
+	}
 }
-}
 
 
-@media only screen and (max-height: 400px) {
+@media only screen and (max-height: 450px) {
 	.nav-bope-hidden{
 		display: none;
 	}
-	.div-apoio > a>img{
-		margin-top: 5px;
-		width: 150px;
 
-	}
 	.nome-navbar{
 		font-size: 15px;
 	}
@@ -78,6 +85,7 @@ body{
 		margin-top: 40px;
 	}
 	#menu-footer{
+		padding-top: 1px;
 		height: 25px;
 	}
 }

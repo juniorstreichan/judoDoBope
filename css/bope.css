@@ -31,18 +31,23 @@ section {
 
 }
 .div-apoio{
-height: 300px;
+	height: 300px;
 
 }
 
 .div-apoio > a>img{
-margin-top: 30px;
+	width: 200px;
+	margin: 0px;
+	margin-left: 10%;
+	margin-top: 30px;
 
 }
 
+
+
 .img-galeria{
- width: 70%; 
-margin-left: 15%;
+	width: 70%; 
+	margin-left: 15%;
 }
 .logo-navbar:hover{
 	width: 80px;
@@ -61,6 +66,15 @@ margin-left: 15%;
 	font-size: large;
 }
 
+.logo-modal{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+}
+
+.text-white{
+	color: #FFFFFF;
+}
 
 
 .fundo-tatame{
@@ -119,49 +133,50 @@ margin-left: 15%;
 /*SOBRE O PROJETO - LEIA MAIS*/
 
 .read-more-state {
-  display: none;
+	display: none;
 }
 
 .read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .1s ease;
+	opacity: 0;
+	max-height: 0;
+	font-size: 0;
+	transition: .1s ease;
 }
 
+
 .read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
-  float: none;
+	opacity: 1;
+	font-size: inherit;
+	max-height: 999em;
+	float: none;
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Leia mais';
-  margin: auto;
+	content: 'Leia mais';
+	margin: auto;
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Mostrar menos';
-  margin: auto;
+	content: 'Mostrar menos';
+	margin: auto;
 }
 
 .read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 .5em;
-  color: white;
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #ddd;
-  border-radius: .25em;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0 .5em;
+	color: white;
+	font-size: .9em;
+	line-height: 2;
+	border: 1px solid #ddd;
+	border-radius: .25em;
 }
 /*horizontal align label Sobre O Projeto*/
 .label-sobre-proj {
 	display: inline-block;
-    white-space: nowrap;
-    text-align: center;
-    margin: 0 auto;
+	white-space: nowrap;
+	text-align: center;
+	margin: 0 auto;
 	padding: auto;
 	text-align: center;
 	float: none;
