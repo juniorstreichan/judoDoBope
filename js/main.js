@@ -6,7 +6,6 @@ $('nav a').click(function(e) {
 });
 
 
-
 // apoio
 /* Type-1 */
 $('#myCarousel').carousel({
@@ -28,6 +27,11 @@ $('.carousel-multi .item').each(function(){
 		
 		next.children(':first-child').clone().appendTo($(this));
 	}
+});
+
+$('#galeria-carousel-video').carousel({
+    pause: true,
+    interval: false
 });
 
 function mudadata(){

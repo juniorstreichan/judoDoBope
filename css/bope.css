@@ -41,8 +41,8 @@ margin-top: 30px;
 }
 
 .img-galeria{
- width: 80%; 
-margin-left: 10%;
+ width: 70%; 
+margin-left: 15%;
 }
 .logo-navbar:hover{
 	width: 80px;
@@ -66,7 +66,7 @@ margin-left: 10%;
 .fundo-tatame{
 	background-image: url("../img/fundo.jpg");
 	/*opacity: 0;*/
-	background-repeat: no-repeat;	
+	background-repeat: repeat-x;	
 	/*background-attachment: fixed;*/
 	padding-top: 25px;
 	padding-bottom: 15px;
