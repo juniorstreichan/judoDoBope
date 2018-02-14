@@ -78,6 +78,10 @@ section {
 .text-white{
 	color: #FFFFFF;
 }
+.text-black{
+	color: #030000;
+}
+
 
 
 .fundo-tatame{
@@ -108,6 +112,7 @@ section {
 	transition-duration: 0.7s;
 	transition-timing-function:  ease-in-out; 	
 }
+
 
 /*apoio*/
 
