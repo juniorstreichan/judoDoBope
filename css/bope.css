@@ -19,6 +19,9 @@ section {
 	float: none;
 }
 
+#logo-footer{
+	max-height: 300px;
+}
 /* CLASSES/////////////////////////////////////////////////////////////*/
 
 .logo-navbar{

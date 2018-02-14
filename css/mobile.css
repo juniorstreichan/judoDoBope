@@ -15,6 +15,11 @@ body{
 	transition-timing-function:  ease-in-out;
 }
 
+.div-apoio>a>img{
+	width: 150px;
+	margin-left: 0%;
+	margin-top: 10px;
+}
 
 
 
@@ -50,6 +55,12 @@ body{
 	.logo-modal{
 		width: 100px;
 	}
+	.div-apoio>a>img{
+	 
+	margin-left: 0%;
+	 
+}
+
 }
 
 @media only screen and (max-width: 335px) {
@@ -58,6 +69,11 @@ body{
 		font-size: 15px;
 		/*padding: 12px;*/
 	}
+		.div-apoio>a>img{
+	 
+	margin-left: 0%;
+	 
+}
 }
 
 
@@ -87,5 +103,9 @@ body{
 	#menu-footer{
 		padding-top: 1px;
 		height: 25px;
+	}
+	.div-apoio>a>img{
+		width: 120px;
+		margin-left: 20%;
 	}
 }
