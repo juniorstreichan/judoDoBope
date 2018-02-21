@@ -23,7 +23,9 @@ section {
 	max-height: 300px;
 }
 /* CLASSES/////////////////////////////////////////////////////////////*/
-
+.slide-bope{
+	margin: -1%;
+}
 .logo-navbar{
 
 	width: 60px;
@@ -89,8 +91,16 @@ section {
 	/*opacity: 0;*/
 	background-repeat: repeat-x;	
 	/*background-attachment: fixed;*/
+	padding-left:  0px;
+	padding-right:  0px;
 	padding-top: 25px;
 	padding-bottom: 15px;
+}
+
+.txt-fixed {
+      position:absolute;
+      top:80%;
+      left:30%;
 }
 
 .navbar-topo-bope{

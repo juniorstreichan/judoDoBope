@@ -20,6 +20,14 @@ body{
 	margin-left: 0%;
 	margin-top: 10px;
 }
+.slide-bope{
+	margin: -1%;
+}
+
+#mapa{
+	width: 400px;
+	height: 400px;
+}
 
 
 
@@ -30,10 +38,6 @@ body{
 	}
 	h1,h2{
 		font-size:30px ;
-	}
-	#mapa{
-		width: 400px;
-		height: 400px;
 	}
 	
 
@@ -56,10 +60,10 @@ body{
 		width: 100px;
 	}
 	.div-apoio>a>img{
-	 
-	margin-left: 0%;
-	 
-}
+
+		margin-left: 0%;
+
+	}
 
 }
 
@@ -69,11 +73,11 @@ body{
 		font-size: 15px;
 		/*padding: 12px;*/
 	}
-		.div-apoio>a>img{
-	 
-	margin-left: 0%;
-	 
-}
+	.div-apoio>a>img{
+
+		margin-left: 0%;
+
+	}
 }
 
 
